@@ -1,0 +1,18 @@
+body{
+	font-family: arial, helvitica, sans-serif;
+}
+
+/*Start of Table Section*/
+.tableSection table {
+    margin: 0 auto;
+    font-size: large;
+    border: 3px solid black;
+}
+
+.tableSection th, td {
+    font-weight: bold;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+/*End of Table Section*/
