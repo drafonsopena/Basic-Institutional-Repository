@@ -1,0 +1,89 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
+
+
+/*Start H1*/
+ h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+	padding: 0;
+}
+/*End H1*/
+
+
+/* These classes are in different files*/
+.loginForm, .registerForm {
+	margin: auto;
+	width: 200px;
+}
+
+.container {
+	padding: 16px;
+	background-color: #e8e9ea;
+}
+
+/*Start Button*/
+button {
+  background-color: #631A35;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+/*End Button*/
+
+/*Start Input Fields*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background-color: #fff;
+  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  border: 3px solid #c9e6ec;
+  outline: none;
+}
+/*End Input Fields*/
+
+/*Start of link (a)*/
+ a {
+	text-decoration: none;
+}
+
+ a:visited {
+	color: black;
+	text-decoration: underline;
+}
+
+ a:hover {
+	color: #195eb7;
+	text-decoration: underline;
+ }
+/*End of link (a)*/	
+
+
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+    background: white;
+}
