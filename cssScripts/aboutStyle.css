@@ -1,0 +1,181 @@
+body{
+	font-family: arial, helvitica, sans-serif;
+	font-
+}
+
+/*Start of About Section*/
+section.aboutSection {
+  padding: 50px;
+  text-align: center;
+  background-color: #631a35;
+  color: white;
+}
+
+.aboutSection a:visited {
+	
+	text-decoration: underline;
+	color: white;
+}
+
+.aboutSection a:hover {
+	color: #195eb7;
+	text-decoration: underline;
+	
+}
+/*End of About Section*/
+
+/*Start License Section*/
+.licenseSection a:visited {
+	color: white;
+	text-decoration: underline;
+	
+}
+
+.licenseSection a:hover {
+	color: #195eb7;
+	text-decoration: underline;
+	
+}
+
+.licenseSection {
+	font-family: Consolas, Monospace;
+	font-size: 16px;
+	padding: 20px 20px 20px 20px;
+	background-color: black;
+}
+
+.licenseSection p, h1 {
+	color: white;
+}
+/*End License Section*/
+
+
+
+
+/*NAVIGATION SECTION*/
+
+
+body{
+	font-family: arial, helvitica, sans-serif;
+	
+}
+
+.logo {
+	height: 5%; width: 5%;
+	border-radius: 50%;	border: none;
+	margin: auto;
+}
+
+
+/*Start Navigation*/
+.navigationSection {
+	overflow: hidden;
+	background-color: #631a35;
+	padding: 10px 10px 0 0;
+	margin-left: 380px;
+	width: 50%;
+	
+}
+
+.navigationSection a {
+	float: left;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 2px;
+}
+
+.navigationSection a:hover {
+	background-color: transparent;
+	color: #195eb7;
+	text-decoration: underline;
+}
+/*End Navigation*/
+
+
+/*Start Button*/
+.buttonSection {
+	float: right;
+	padding: 0;
+	position: absolute;
+	top: 5px;
+	right: 30px;
+}
+
+.buttonSection button {
+
+	text-align: center;
+	background-color: transparent;
+    border: 3px solid black;
+    cursor: pointer;
+	overflow: hidden;
+	border-radius: 4px;
+	outline: none;
+}
+
+.buttonSection a:visited {
+	color: white;
+	text-decoration: underline;
+}
+
+.buttonSection a:hover {
+	color: #195eb7;
+	text-decoration: underline;
+}
+/*End Button*/
+
+
+/*Start Search-box*/
+.searchBox {
+	float: right;
+	padding: 2px 5px 5px 0;
+}
+/*End Search-box*/
+
+
+/*Start Footer*/
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #631a35;
+	color: white;
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #195eb7;
+	text-decoration: underline;
+}
+/*End Footer*/
+
+/*Start Header quotes
+.mainContent h3,h5 {
+	padding: 2px;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+End Header quotes*/
+
+
+/*Main Content Start*/
+.center3 {
+ border: 3px solid black; padding: 10px; margin: 3px; text-align: center;
+
+}
+
+/*Main Content End*/

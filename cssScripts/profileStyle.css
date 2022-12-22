@@ -1,0 +1,131 @@
+body {
+    background: #631A35;  /* fallback for old browsers */
+    background: linear-gradient(to right,  #195EB7, #631A35); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Paragraph & Header Start*/
+.card-header, .card-body, p h3 {
+background-color: #e8e9ea;
+padding: 3px 80px 10px 50px;
+margin: 2px 80px 10px 80px;
+border: solid black 1px;
+text-align: center;
+}
+
+
+ h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+	padding: 0;
+}
+
+
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+	
+p {
+ font-size: 15px;
+ font-weight: 500;
+}
+/*Paragraph & Header End*/
+
+/*Table Start*/
+ .profile .table th, .profile .table td, tr {
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #000;
+	border: solid black 3px;	
+}
+
+
+.table {
+background-color: #e8e9ea;
+padding: 2px 50px 2px 50px;
+margin: 2px 0 2px 250px;
+margin-right: 100%;
+border: solid black 3px;
+
+}
+/*Table End*/
+
+
+/*Image Start*/
+
+
+.profile_img, img {
+	width: 100px;
+	height: 100px;
+	padding: 10px 0 10px 80px;
+}
+
+/*Image End*/
+
+
+
+/*Navigation Start*/
+.navSection {
+	overflow: hidden;
+	background-color: #631a35;
+}
+
+.navSection a {
+	float: left;	
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navSection a:hover {
+	background-color: transparent;
+	color: #195eb7;
+	text-decoration: underline;
+}
+
+.navSection a:visited {
+	color: white;
+	text-decoration: underline;
+}
+
+/*Navigation End*/
+
+
+/*Footer Start*/
+.footer {
+	margin: 10px;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #631a35;
+	color: white;
+	text-align: center;
+}
+
+.footer p {
+	color: white;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer a:hover {
+	color: #195eb7;
+	text-decoration: underline;
+}
+/*Footer End*/
